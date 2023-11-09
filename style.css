@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+    font-family: 'Bayon', sans-serif;
+}
+
+ul {
+    list-style-type: square;
+}
+
