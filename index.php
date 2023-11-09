@@ -51,7 +51,7 @@
                 </ul>
                 
                 <h6>Web Development:</h6>
-                <ul>
+                <ul>git push -u <remote-name> <branch-name>
                     <li>Experienced in HTML, CSS, JavaScript, Bootstrap, and W3CSS.</li>
                 </ul>
                 <h6>Windows Desktop Application:</h6>
