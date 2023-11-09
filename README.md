@@ -1,2 +1,2 @@
-# jeremypoliquit
+# Portfolio Website
 my github portfolio
