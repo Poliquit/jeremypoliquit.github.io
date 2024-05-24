@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* NAVIGATION BAR */
+
+
+header {
+    height: 100vh;
+    margin: 0;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section-title {
+    margin-top: 10rem;
+}
+
+.section-title h1 {
+    font-size: 56px;
+    margin-bottom: 1rem;
+}
+
+.section-title h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.section-title p {
+    font-size: 14px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    font-weight: 700;
+}
+
+.navbar a.active {
+    color: orangered;
+}
+
+.navbar a:hover{
+    color: orangered;
+    transition: 0.4s ease;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar span {
+    color: orangered;
+}
+
+.contact-me {
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 1.5px solid orangered;
+    background-color: rgba(0,0,0,0);
+}
+
+.contact-me:hover {
+    background: orangered;
+    transition: 0.5s ease-in;
+    color: white;
+}
+
+.button-head {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.btn-hire {
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 2px solid orangered;
+    background-color: rgba(0,0,0,0);
+}
+
+.btn-download {
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    background: orangered;
+    color: white;
+}
+
+.btn-hire:hover {
+    border: none;
+    background: orangered;
+    transition: 0.4s ease-in;
+}
+
+.btn-download:hover {
+    border: 1px solid orangered;
+    background-color: rgba(0,0,0,0);
+    color: black;
+    transition: 0.4s ease-in;
+}
+
+
+
+/* ABOUT SECTION */
+
+
+.about {
+    height: 100vh;
+    background: black;
+    color: white;
+}
+
+.about h1,
+.skills h1,
+.project h1,
+.contact-form h1 {
+    padding: 5rem 0 5rem 2rem;
+    color: orangered;
+    font-size: 28px;
+    text-align: center;
+}
+
+.about p {
+    max-width: 780px;
+    padding: 0 0 1rem 3rem;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.column img {
+    width: 200px;
+    margin-right: 5rem;
+}
+
+
+/* SKILLS SECTION */
+
+
+.skills {
+    height: 100vh;
+}
+
+.grid-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    padding: 5rem;
+}
+
+.grid-items i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.grid-items h3{
+    text-align: center;
+}
+
+
+/* SECTION PROJECT */
+
+
+.project {
+    height: 100vh;
+    background: black;
+    color: white;
+}
+
+.project a {
+    color: white;
+}
+
+.collection-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+}
+
+.project-1 {
+    max-width: 600px;
+}
+
+.project-1 img,
+.project-2 img{
+    width: 30rem;
+    height: 20rem;
+    display: inline;
+    overflow: hidden;
+    background-size: cover;
+}
+
+
+.project-1 p,
+.project-2 p {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.project-2 {
+    max-width: 600px;
+}
+
+
+/* CONTACT FORM */
+
+
+.contact-form {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    width: 100%;
+    resize: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.contact-form button:hover {
+    background-color: rgba(0,0,0,0);
+    color: black;
+    transition: 0.4s ease-in-out;
+}

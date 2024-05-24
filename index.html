@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Web</title>
+</head>
+<body>
+
+
+    <!-- HEADER TITLE NAV -->
+    
+
+    <header>
+        <nav class="navbar">
+            <h1>Jeremy <br><span>Poliquit</span></h1>
+            <ul class="responsive">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+
+            <button class="contact-me">Contact Me</button>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+
+        <div class="section-title" id="home">
+            <h1>Jeremy Poliquit</h1>
+            <h3>Web Developer / Backend Developer</h3> 
+            <p>Computer Science student / Aspiring Software Engineer</p>
+
+            <div class="button-head">
+                <button class="btn-hire">Hire Me</button> 
+                <button class="btn-download">Download  <i class="fa-solid fa-download"></i></button>  
+            </div>
+            
+        </div>
+    </header>
+
+
+    <!-- ABOUT SECTION -->
+
+
+    <section class="about" id="about">
+        <h1>About Me</h1>
+
+        <div class="column">
+            <p>Hello! I'm Jeremy Poliquit, a passionate computer science student with a keen interest in technology and software development. I'm currently pursuing my degree in computer science, where I'm learning a wide range of programming languages, algorithms, and software engineering principles. <br>
+                <br>
+
+            I am deeply fascinated by the endless possibilities that technology offers and am committed to honing my skills to become a proficient software engineer. My goal is to leverage my knowledge and creativity to develop innovative solutions that address real-world challenges. <br>
+                <br>
+            
+            With a strong foundation in computer science concepts and a drive for continuous learning, I am excited about the opportunities that lie ahead in the dynamic field of software engineering. I am eager to collaborate with like-minded individuals and contribute to the ever-evolving world of technology.</p>
+
+            <img src="Assets/profile.jpg" alt="profile">
+        </div>
+        
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+
+
+    <section class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="grid-items">
+            <div class="html">
+                <i class="fa-brands fa-html5"></i><br>
+                <h3>HTML</h3>
+            </div>
+            <div class="css">
+                <i class="fa-brands fa-css3-alt"></i><br>
+                <h3>CSS</h3>
+            </div>
+            <div class="javascript">
+                <i class="fa-brands fa-square-js"></i><br>
+                <h3>Java Script</h3>
+            </div>
+            <div class="php">
+                <i class="fa-brands fa-php"></i><br>
+                <h3>PHP</h3>
+            </div>
+            <div class="mysql">
+                <i class="fa-solid fa-database"></i><br>
+                <h3>MySQL</h3>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECTION PROJECT -->
+
+    
+    <section class="project" id="projects">
+        <h1>Projects</h1>
+
+        <div class="collection-projects">
+            <div class="project-1">
+                <a href="Projects/Login-Form/index.html"><img src="Assets/LoginPage.PNG" alt="LoginPage"></a>
+                <p>Account Form</p>
+            </div>
+
+            <div class="project-2">
+                <a href="Projects/Activity3/index.html"><img src="Assets/BasicWebTemplate.PNG" alt="RegisterPage"></a>
+                <p>Basic Web Template</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT FORM -->
+
+
+    <section class="contact-form" id="contact-me">
+        <h1>Contact Form</h1>
+        
+        <div class="form">
+            <form action="#">
+                <input type="email" placeholder="E-mail..."><br>
+                <br>
+                <input type="text" placeholder="Subject..."><br>
+                <br>
+                <textarea class="" cols="50" rows="10" placeholder="Message..."></textarea><br>
+                <br>
+
+                <button type="submit" class="submit-button">Send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+        
+    </section>
+</body>
+</html>
